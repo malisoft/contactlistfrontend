@@ -44,7 +44,8 @@
                     <h2>Message</h2>
                     {{messageTicket}}
                     <h2>This url is for a test email</h2>
-                    {{urlTicket}}
+                    <a :href="urlTicket" target="_blank" rel="noopener noreferrer">{{urlTicket}}</a>
+
                 </v-card-text>
                 <v-card-actions>
                     <v-spacer></v-spacer>
